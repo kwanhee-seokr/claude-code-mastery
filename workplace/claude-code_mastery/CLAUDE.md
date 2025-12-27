@@ -20,17 +20,28 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## 프로젝트 구조
 ```
-portfolio-resume/
-├── index.html          # 메인 HTML 파일
-├── css/
-│   ├── style.css      # 커스텀 CSS 스타일
-│   └── tailwind.css   # Tailwind 설정
-├── js/
-│   └── main.js        # JavaScript 기능 구현
-├── assets/
-│   ├── images/        # 프로필 사진, 프로젝트 이미지
-│   └── icons/         # 아이콘 파일
-└── README.md          # 프로젝트 문서
+claude-code_mastery/
+├── .claude/                    # Claude Code 설정 파일
+│   ├── settings.json          # 프로젝트별 설정
+│   └── settings.local.json    # 로컬 설정
+├── docs/                       # 문서 폴더
+│   └── git-instructions.md    # Git 워크플로우 가이드
+├── my-profile-site/            # 포트폴리오 웹사이트 프로젝트
+│   ├── index.html             # 메인 HTML 파일
+│   ├── devel_portfolio.png    # 포트폴리오 이미지
+│   └── my_profile.png         # 프로필 이미지
+├── counter-app/                # 카운터 앱 예제
+│   └── index.html             # 카운터 앱 HTML
+├── CLAUDE.md                   # Claude Code 가이드
+├── README.md                   # 프로젝트 문서
+├── ROADMAP.md                  # 프로젝트 로드맵
+├── .gitignore                  # Git 제외 파일 목록
+├── bug2.md                     # 버그 관련 문서
+├── bug3.md                     # 버그 관련 문서
+├── dev1.md                     # 개발 관련 문서
+├── dev2.md                     # 개발 관련 문서
+├── login.md                    # 로그인 관련 문서
+└── signup.md                   # 회원가입 관련 문서
 ```
 
 ## 개발 명령어
