@@ -139,7 +139,7 @@ git commit -m "문서: 설명"
 
 # 추가 지침
 - git 워크플로우 @docs/git-instructions.md
-- 변수명, 함수명은 카멜케이스 규칙을 사용하세요.
+- **네이밍 규칙**: 변수명, 함수명은 카멜케이스(camelCase) 사용 (예: `userName`, `getUserData()`)
 
 
 
